@@ -13,7 +13,9 @@ $.dockui.widgets.static_content = {
 		$('<div id="'+htmldisplayid+'" class="dockui-dockitem-content">&nbsp;</div>').appendTo(dockItem);
 
 		var change = function(){
-			$('#'+htmldisplayid).load($(this).attr('value'));
+			if($(this).attr('value')!=''){
+				$('#'+htmldisplayid).load($(this).attr('value'));
+			}
 		}
 		contentSelect.change(change);
 	}
