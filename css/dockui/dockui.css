@@ -1,0 +1,76 @@
+
+body{
+    background-color: #7D7D7D;
+}
+.ui-widget{
+	font-size: 0.8em;
+}
+#dockui_globaltoolbox{
+	position: absolute;
+}
+.dockui-globaldialog-h1{
+	width:20em;
+}
+#dockui-globaldialog-loader{
+	width:20em;
+}
+
+.toolbox_icon{
+	width: 40px;
+	height: 40px;
+	margin: 5px 5px 5px 5px;
+	float:left;
+	z-index: 999;
+}
+
+.toolbox_icon img{
+	width: 30px;
+	height: 30px;
+	margin: 5px 5px 5px 5px;
+}
+
+.toolbox_icon_embedded{
+	width: 40px;
+	height: 40px;
+	margin: 5px 5px 5px 5px;
+	float:left;
+	z-index: 999;
+}
+
+.toolbox_icon_embedded img{
+	width: 30px;
+	height: 30px;
+	margin: 5px 5px 5px 5px;
+}
+
+.dockui-toolbaricon-clickable{
+	cursor:pointer;
+}
+
+.dockui-dock{
+	height:auto;
+	z-index:0;
+	min-height:6em;
+}
+
+.dockui-dock-item{
+	width:auto;
+	height:auto;
+	margin: 5px 5px 5px 5px;
+	float:left;
+	font-weight: normal;
+	z-index: 5;
+}
+
+.static_content{
+	/*margin-top: 1em;*/
+}
+.static_content h2{
+	font-size:1.2em;
+	font-weight: bold;
+	margin-top:1em;
+}
+
+.static_content p{
+	maring-bottom: 0.7em;
+}
