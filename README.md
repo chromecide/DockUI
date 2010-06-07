@@ -1,13 +1,8 @@
 DockUI : jQuery Based Web UI
 =======================
+**NOTE: Tuesday, June 8, 2010**
 
-**NOTE: Friday, June 4, 2010**
-
-The code provided here at the moment is the skeleton of what it needs to be.  There is no error handling, the element stacking needs to be dealt with(currently widget icons from the toolbar appear below the docks themselves), basically it is only
-a little further up the dev chain than "proof of concept".  The base of the messaging system is there, but at the moment does not include the support for sharing docks, which will be my primary focus this weekend.
-
-I'll be working on the system over this coming weekend, and I wanted it in a code repo for my own change tracking, so I figured I may as well get it out there now, so if anyone wants to help, please, contact me.
-
+Please see the [Dock UI Google Group](http://groups.google.com/group/dockui) for more information and updates about this project.
 **/rant**
 
 
